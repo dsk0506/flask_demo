@@ -3,4 +3,4 @@ from flask import Flask
 
 app = Flask(__name__)
 client = app.test_client()
-from src.app.modules.user.controllers import *
+from app.modules.user.controllers import *

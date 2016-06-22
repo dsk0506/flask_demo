@@ -1,2 +1,2 @@
 __author__ = 'dsk'
-from src.app.modules.user.controllers import user
+from app.modules.user.controllers import user

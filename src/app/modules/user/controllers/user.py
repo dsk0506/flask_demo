@@ -1,10 +1,11 @@
 from app import app
-from flask import  request,make_response
-from flask import  jsonify
+from flask import request, make_response
+from flask import jsonify
+
 
 @app.route('/')
 def index():
-    return jsonify({"name":"123","sex":1,"age":25})
+    return jsonify({"name": "123", "sex": 1, "age": 25})
 
 
 @app.route('/user')
